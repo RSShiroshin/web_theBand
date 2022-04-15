@@ -49,6 +49,8 @@ html {
     display: inline-block;
     margin-top: 16px;
     border: none;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -228,7 +230,7 @@ html {
     margin-top: 46px;
     padding-top: 50%;
     position: relative;
-    background: url('/CODE/web_theBand/assets/css/img/slider/1.png') top center / cover no-repeat;
+    background: url('./img/slider/1.png') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -238,7 +240,7 @@ html {
     transform: translateX(-50%); /*dịch lùi lại theo chiều ngang 1 
                                 khoảng bằng 50% box đó*/
     text-align: center; /*căn giữa dòng*/
-
+    text-shadow: 0 0 1px #fff;
     /*cách 2: bỏ left vs transform ở trên
     đặt    width: 100%;
     */
